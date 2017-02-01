@@ -4,12 +4,19 @@ Based on https://github.com/jasonswett/angular2-tour-of-heroes and the projects 
 Long story short:
 
 commands:
+
 npm install
+
 npm run build
+
 npm start
+
 npm run lint
-npm run test (your files need to follow this patter 'app/*spec.js')
-npm run e2e test (your files need to follow this patter '**/*e2e-spec.js')
+
+npm run test (your files need to follow this pattern 'app/*spec.js')
+
+npm run e2e test (your files need to follow this pattern '**/*e2e-spec.js')
+
 npm run coverage
 
 
