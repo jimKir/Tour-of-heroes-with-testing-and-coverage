@@ -1,7 +1,7 @@
 #Tour of heroes tutorial of Angular 2 with unit, e2e and test coverage
 Based on https://github.com/jasonswett/angular2-tour-of-heroes and the projects this project is based...
 
-Long story short:
+Long story short
 
 commands:
 
