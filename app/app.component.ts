@@ -14,5 +14,5 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'Tour of Heroes';
+  public title = 'Tour of Heroes';
 }
