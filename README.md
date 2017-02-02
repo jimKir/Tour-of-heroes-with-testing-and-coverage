@@ -1,15 +1,22 @@
 #Tour of heroes tutorial of Angular 2 with unit, e2e and test coverage
 Based on https://github.com/jasonswett/angular2-tour-of-heroes and the projects this project is based...
 
-Long story short:
+Long story short
 
 commands:
+
 npm install
+
 npm run build
+
 npm start
+
 npm run lint
-npm run test (your files need to follow this patter 'app/*spec.js')
-npm run e2e test (your files need to follow this patter '**/*e2e-spec.js')
+
+npm run test (your files need to follow this pattern 'app/*spec.js')
+
+npm run e2e test (your files need to follow this pattern '**/*e2e-spec.js')
+
 npm run coverage
 
 
