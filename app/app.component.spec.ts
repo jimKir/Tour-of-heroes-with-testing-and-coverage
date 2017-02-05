@@ -2,7 +2,7 @@
 
 import {TestBed, async} from '@angular/core/testing';
 import {AppComponent} from './app.component';
-import {RouterTestingModule} from "@angular/router/testing";
+import {RouterTestingModule} from '@angular/router/testing';
 
 
 describe('App: Testing', () => {
@@ -21,7 +21,7 @@ describe('App: Testing', () => {
       let fixture = TestBed.createComponent(AppComponent);
       let app = fixture.debugElement.componentInstance;
       expect(app).toBeTruthy();
-    })
+    });
   }));
 
   it(`should have as title 'Tour of heroes'`, async(() => {
@@ -29,7 +29,7 @@ describe('App: Testing', () => {
       let fixture = TestBed.createComponent(AppComponent);
       let app = fixture.debugElement.componentInstance;
       expect(app.title).toEqual('Tour of Heroes');
-    })
+    });
   }));
 
   it('should render title in a h1 tag', async(() => {

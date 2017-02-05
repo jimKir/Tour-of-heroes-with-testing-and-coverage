@@ -95,13 +95,14 @@ module.exports = function(config) {
     // Source files that you wanna generate coverage for.
     // Do not include tests or libraries (these files will be instrumented by Istanbul)
     preprocessors: {
-      'app/**/!(*spec).js': ['coverage'],
+      'app/!(*spec).js': ['coverage'],
+      'app/!(main).js': ['coverage'],
       'app/*.js': ['coverage'],
       'app/**/*.js': ['coverage']
     },
     reporters: ['spec', 'progress', 'kjhtml', 'dots', 'coverage'],
     // generate coverage report in json format
-      coverageReporter: { dir: 'coverage/', includeAllSources: true },
+      coverageReporter: { dir: 'coverage/' },
 
     port: 9876,
     colors: true,

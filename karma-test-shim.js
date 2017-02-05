@@ -39,7 +39,8 @@ var allSpecFiles = Object.keys(window.__karma__.files)
 System.config({
   baseURL: 'base',
   // Extend usual application package list with test folder
-  packages: { 'testing': { main: 'index.js', defaultExtension: 'js' } },
+  packages: { 'testing': { main: 'index.js', defaultExtension: 'js', 'app': {defaultExtension: 'js'},
+    'rxjs': {defaultExtension: 'js'}  } },
 
   // Assume npm: is set in `paths` in systemjs.config
   // Map the angular testing umd bundles
@@ -52,6 +53,7 @@ System.config({
     '@angular/http/testing': 'npm:@angular/http/bundles/http-testing.umd.js',
     '@angular/router/testing': 'npm:@angular/router/bundles/router-testing.umd.js',
     '@angular/forms/testing': 'npm:@angular/forms/bundles/forms-testing.umd.js',
+    rxjs: 'node_modules/rxjs' // added this map section
   },
 });
 
